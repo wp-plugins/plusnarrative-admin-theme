@@ -1,0 +1,34 @@
+body.login {
+	background: #03a9f4;
+}
+.login #backtoblog a, .login #nav a {
+	color: #FFF;
+}
+.login #backtoblog a:hover, .login #nav a:hover {
+	color: #000;
+}
+.login form {
+	border-radius: 1em;
+}
+.login #login h1 a {
+	background-image: url(img/plusnarrative-logo-full.png);
+	background-size: 300px auto;
+	width: 300px;
+	height: 60px;
+}
+.login .button-primary {
+	background: #03a9f4;
+	box-shadow: none;
+	border: none;
+}
+.login .button-primary:hover {
+	background: #ff5621;
+}
+#wpadminbar #wp-admin-bar-pn-link>.ab-item:before{
+	content: '';
+	background-image: url(img/plusnarrative-logo.png) !important;
+	background-size: 22px auto;
+	width: 22px;
+	height: 14px;
+	top: 5px;
+}
